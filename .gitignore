@@ -13,3 +13,30 @@ scripts/merge-yml/*.yml
 .claude/
 .tarko
 .mcp*_token
+
+# Duplicate files (likely from macOS filesystem or editor temp files)
+*\ 2/
+*\ 2.*
+
+# Build artifacts and backups
+build/
+dist/
+out/
+*.backup
+*.bak
+*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor caches
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Backup folders (for cleanup operations)
+backup-untracked-*/
